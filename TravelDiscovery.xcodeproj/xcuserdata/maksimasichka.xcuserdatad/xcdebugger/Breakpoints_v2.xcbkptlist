@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "53AFB721-5AB1-435B-81F5-472BBF2CC2E0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5EA3B52D-CDAB-4425-9D8C-1BE6684CB85D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelDiscovery/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B68470B-F3BA-4157-8178-855B1358D2D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TravelDiscovery/Discover/DiscoveryCategoriesView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "CategoryDetailsView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "0B68470B-F3BA-4157-8178-855B1358D2D1 - 23e0bc0bb19f9c4c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelDiscovery.CategoryDetailsView.init() -&gt; TravelDiscovery.CategoryDetailsView"
+                  moduleName = "TravelDiscovery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimasichka/Documents/IOS%20dev/TravelDiscovery/TravelDiscovery/Discover/DiscoveryCategoriesView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "21">
+               </Location>
+               <Location
+                  uuid = "0B68470B-F3BA-4157-8178-855B1358D2D1 - e8f69e86a2322474"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TravelDiscovery.CategoryDetailsView.init(vm: TravelDiscovery.CategoryDetailsViewModel) -&gt; TravelDiscovery.CategoryDetailsView"
+                  moduleName = "TravelDiscovery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimasichka/Documents/IOS%20dev/TravelDiscovery/TravelDiscovery/Discover/DiscoveryCategoriesView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

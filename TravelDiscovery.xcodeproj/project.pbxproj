@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74B1733E257CE0AC0066478E /* PopularDestinationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1733D257CE0AC0066478E /* PopularDestinationsView.swift */; };
+		74B17341257CE31E0066478E /* PopularRestaurantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B17340257CE31E0066478E /* PopularRestaurantsView.swift */; };
+		74B17344257CE4160066478E /* DiscoveryCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B17343257CE4160066478E /* DiscoveryCategoriesView.swift */; };
+		74B17347257CE4B10066478E /* TrendingCreatorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B17346257CE4B10066478E /* TrendingCreatorsView.swift */; };
+		74B1734B257CE6150066478E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1734A257CE6150066478E /* Category.swift */; };
+		74B1734F257CE6330066478E /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B1734E257CE6330066478E /* Destination.swift */; };
+		74B17352257CE64A0066478E /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B17351257CE64A0066478E /* Restaurant.swift */; };
+		74B17355257CE6600066478E /* Creators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B17354257CE6600066478E /* Creators.swift */; };
+		74B17359257D1C340066478E /* TileModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B17358257D1C340066478E /* TileModifier.swift */; };
+		74C338CD2573AA8500CFD748 /* TravelDiscoveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C338CC2573AA8500CFD748 /* TravelDiscoveryApp.swift */; };
+		74C338CF2573AA8500CFD748 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C338CE2573AA8500CFD748 /* DiscoverView.swift */; };
+		74C338D12573AA8600CFD748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C338D02573AA8600CFD748 /* Assets.xcassets */; };
+		74C338D42573AA8600CFD748 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C338D32573AA8600CFD748 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74B1733D257CE0AC0066478E /* PopularDestinationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularDestinationsView.swift; sourceTree = "<group>"; };
+		74B17340257CE31E0066478E /* PopularRestaurantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularRestaurantsView.swift; sourceTree = "<group>"; };
+		74B17343257CE4160066478E /* DiscoveryCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryCategoriesView.swift; sourceTree = "<group>"; };
+		74B17346257CE4B10066478E /* TrendingCreatorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCreatorsView.swift; sourceTree = "<group>"; };
+		74B1734A257CE6150066478E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		74B1734E257CE6330066478E /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		74B17351257CE64A0066478E /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		74B17354257CE6600066478E /* Creators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creators.swift; sourceTree = "<group>"; };
+		74B17358257D1C340066478E /* TileModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileModifier.swift; sourceTree = "<group>"; };
+		74C338C92573AA8500CFD748 /* TravelDiscovery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelDiscovery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C338CC2573AA8500CFD748 /* TravelDiscoveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDiscoveryApp.swift; sourceTree = "<group>"; };
+		74C338CE2573AA8500CFD748 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		74C338D02573AA8600CFD748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74C338D32573AA8600CFD748 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74C338D52573AA8600CFD748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74C338C62573AA8500CFD748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74B1733A257CDE040066478E /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				74C338CE2573AA8500CFD748 /* DiscoverView.swift */,
+				74B1733D257CE0AC0066478E /* PopularDestinationsView.swift */,
+				74B17340257CE31E0066478E /* PopularRestaurantsView.swift */,
+				74B17343257CE4160066478E /* DiscoveryCategoriesView.swift */,
+				74B17346257CE4B10066478E /* TrendingCreatorsView.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		74B17349257CE5BE0066478E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74B1734A257CE6150066478E /* Category.swift */,
+				74B1734E257CE6330066478E /* Destination.swift */,
+				74B17351257CE64A0066478E /* Restaurant.swift */,
+				74B17354257CE6600066478E /* Creators.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74B17357257D1C180066478E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				74B17358257D1C340066478E /* TileModifier.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		74C338C02573AA8500CFD748 = {
+			isa = PBXGroup;
+			children = (
+				74C338CB2573AA8500CFD748 /* TravelDiscovery */,
+				74C338CA2573AA8500CFD748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74C338CA2573AA8500CFD748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74C338C92573AA8500CFD748 /* TravelDiscovery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74C338CB2573AA8500CFD748 /* TravelDiscovery */ = {
+			isa = PBXGroup;
+			children = (
+				74B17357257D1C180066478E /* Utils */,
+				74B17349257CE5BE0066478E /* Models */,
+				74B1733A257CDE040066478E /* Discover */,
+				74C338CC2573AA8500CFD748 /* TravelDiscoveryApp.swift */,
+				74C338D02573AA8600CFD748 /* Assets.xcassets */,
+				74C338D52573AA8600CFD748 /* Info.plist */,
+				74C338D22573AA8600CFD748 /* Preview Content */,
+			);
+			path = TravelDiscovery;
+			sourceTree = "<group>";
+		};
+		74C338D22573AA8600CFD748 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				74C338D32573AA8600CFD748 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74C338C82573AA8500CFD748 /* TravelDiscovery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C338D82573AA8600CFD748 /* Build configuration list for PBXNativeTarget "TravelDiscovery" */;
+			buildPhases = (
+				74C338C52573AA8500CFD748 /* Sources */,
+				74C338C62573AA8500CFD748 /* Frameworks */,
+				74C338C72573AA8500CFD748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelDiscovery;
+			productName = TravelDiscovery;
+			productReference = 74C338C92573AA8500CFD748 /* TravelDiscovery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74C338C12573AA8500CFD748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					74C338C82573AA8500CFD748 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 74C338C42573AA8500CFD748 /* Build configuration list for PBXProject "TravelDiscovery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74C338C02573AA8500CFD748;
+			productRefGroup = 74C338CA2573AA8500CFD748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74C338C82573AA8500CFD748 /* TravelDiscovery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74C338C72573AA8500CFD748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C338D42573AA8600CFD748 /* Preview Assets.xcassets in Resources */,
+				74C338D12573AA8600CFD748 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74C338C52573AA8500CFD748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B17344257CE4160066478E /* DiscoveryCategoriesView.swift in Sources */,
+				74B17359257D1C340066478E /* TileModifier.swift in Sources */,
+				74B1733E257CE0AC0066478E /* PopularDestinationsView.swift in Sources */,
+				74B17347257CE4B10066478E /* TrendingCreatorsView.swift in Sources */,
+				74B17341257CE31E0066478E /* PopularRestaurantsView.swift in Sources */,
+				74C338CF2573AA8500CFD748 /* DiscoverView.swift in Sources */,
+				74C338CD2573AA8500CFD748 /* TravelDiscoveryApp.swift in Sources */,
+				74B1734F257CE6330066478E /* Destination.swift in Sources */,
+				74B1734B257CE6150066478E /* Category.swift in Sources */,
+				74B17355257CE6600066478E /* Creators.swift in Sources */,
+				74B17352257CE64A0066478E /* Restaurant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		74C338D62573AA8600CFD748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74C338D72573AA8600CFD748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74C338D92573AA8600CFD748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelDiscovery/Preview Content\"";
+				DEVELOPMENT_TEAM = C5MJRPU929;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TravelDiscovery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alexandra.TravelDiscovery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74C338DA2573AA8600CFD748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelDiscovery/Preview Content\"";
+				DEVELOPMENT_TEAM = C5MJRPU929;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TravelDiscovery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alexandra.TravelDiscovery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74C338C42573AA8500CFD748 /* Build configuration list for PBXProject "TravelDiscovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C338D62573AA8600CFD748 /* Debug */,
+				74C338D72573AA8600CFD748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C338D82573AA8600CFD748 /* Build configuration list for PBXNativeTarget "TravelDiscovery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C338D92573AA8600CFD748 /* Debug */,
+				74C338DA2573AA8600CFD748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74C338C12573AA8500CFD748 /* Project object */;
+}
